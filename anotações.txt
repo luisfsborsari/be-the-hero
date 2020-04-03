@@ -1,0 +1,10 @@
+Node.js
+Comandos úteis:
+npm start - levanta o servidor monitorando alteraçõs no código
+
+KNEX: framework para banco de dados (tipo hibernate) - npm install knex - http://knexjs.org/
+Comandos úteis:
+npx knex init
+npx migrate:create <nome_da_tabela>
+npx migrate:latest
+npx migrate:list
