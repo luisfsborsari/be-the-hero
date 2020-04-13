@@ -8,3 +8,22 @@ npx knex init
 npx migrate:create <nome_da_tabela>
 npx migrate:latest
 npx migrate:list
+
+ESLint: biblioteca instalada no vscode que identifica possíveis erros no código.
+
+Immutable:
+  const [counter, abacaxi] = useState(0);
+
+  function increment(){
+    abacaxi(counter + 1);
+  }
+
+  return (
+    <div>
+      <Header title="Semana Omnistack"/>
+      <h2>Contador: {counter}</h2>
+      <button onClick={increment}>Incrementar</button>
+
+    </div>
+    
+  );
